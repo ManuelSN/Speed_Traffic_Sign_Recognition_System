@@ -25,7 +25,7 @@ conda env create -f conda_environment.yml
 conda activate SpeedTrafficSignRecognitionApp_env
 ```
 
-## 2. FTDI driver (required for ftd2xx)
+### 2. FTDI driver (required for ftd2xx)
 
 To allow the application to communicate with the FTDI device, you must copy the FTDI D2XX driver DLL into your Windows system folder:
 
