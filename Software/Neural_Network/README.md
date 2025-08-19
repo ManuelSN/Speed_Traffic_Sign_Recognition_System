@@ -11,7 +11,7 @@ Users may organize datasets and outputs as they prefer, as long as they update t
 ## 📂 Folder structure
 ```
 Neural_Network/
-├── data/                                # Datasets
+├── dataset/                             # Datasets
 │ ├── yolo_dataset/                      # Reduced GTSRB dataset (42 classes, Kaggle version)
 │ └── yolo_dataset_filtered/             # Filtered dataset: only speed limit signs
 │
