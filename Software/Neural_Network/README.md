@@ -133,15 +133,11 @@ The workflow is as follows:
      ```
    python scripts/train_yolo.py
    ```
-3. **Export model to a specific format *.onnx* if needed (*.pt* by default). You could customise this script to the format you want.**
-    ```
-    python scripts/export_to_onnx.py
-   ```
-4. **Remap downloaded custom_dataset to best.pt class map**
+3. **Remap downloaded custom_dataset to best.pt class map**
    ```
    python scripts/remap_yolo_labels.py
    ```
-5. **Train model with custom_dataset remapped**
+4. **Train model with custom_dataset remapped**
     ```
    python scripts/finetune_train_yolo.py
    ```
