@@ -15,9 +15,10 @@ This repository contains the source code and environment configuration for the p
 ## 🚀 For end users
 
 If you only want to **use the application**, you don’t need to install Python, Conda, or any dependencies.  
-Just download and run the installer **`STSRAppInstaller.exe`**.  
+Just download the installer **`STSRAppInstaller.exe`** from the [releases](https://github.com/ManuelSN/Speed_Traffic_Sign_Recognition_System/releases) section.  
 
 The installer will set up everything automatically — you just need to follow the wizard and start the app.
+
 
 ## 🛠️ For developers
 
