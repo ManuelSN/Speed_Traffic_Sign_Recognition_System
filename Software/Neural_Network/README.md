@@ -11,7 +11,7 @@ Users may organize datasets and outputs as they prefer, as long as they update t
 ## 📂 Folder structure
 ```
 Neural_Network/
-├── dataset/                             # Datasets
+├── dataset/                             # Datasets (not present due to size constraints)
 │ ├── yolo_dataset/                      # Reduced GTSRB dataset (42 classes, Kaggle version)
 │ └── yolo_dataset_filtered/             # Filtered dataset: only speed limit signs
 │
@@ -44,8 +44,8 @@ runs/                                    # Results from training sessions
 │       ├── results.png                  # Training/validation loss curves
 │       └── val_batch*_pred.jpg          # Example predictions
 │
-└── custom_dataset/                      # Results from fine-tuning with Belgian dataset
-    └── detect/train/        
+├── custom_dataset/                      # Results from fine-tuning with Belgian dataset
+|   └── detect/train/        
 │       ├── weights/                     # Saved weights (best.pt, last.pt)
 │       ├── confusion_matrix.png         # Confusion matrix
 │       ├── F1_curve.png                 # F1 score curve
@@ -61,7 +61,7 @@ runs/                                    # Results from training sessions
 ## 📑 Dataset details
 
 ### `yolo_dataset/`  
-This folder contains the **GTSRB dataset (German Traffic Sign Recognition Benchmark)** but in its **reduced version with up to 42 classes**.  
+This folder would contain the **GTSRB dataset (German Traffic Sign Recognition Benchmark)** but in its **reduced version with up to 42 classes**.  
 
 📌 Due to size constraints, the dataset is not fully included here.  
 👉 You can download the dataset used from: [GTSRB – German Traffic Sign (Kaggle)](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign)
@@ -74,7 +74,7 @@ Structure:
 ---
 
 ### `yolo_dataset_filtered/`  
-This is a **filtered version** from the previously downloaded dataset, keeping **only speed limit signs**.  
+This would be the **filtered version** from the previously downloaded dataset, keeping **only speed limit signs**.  
 The idea is to reduce the number of classes and focus on the relevant ones for this project.
 
 Once the dataset was filtered, was converted to the YOLO format required for training the neural model. This was done using the **`convertDatasetIntoYOLOformat.py`** script.
