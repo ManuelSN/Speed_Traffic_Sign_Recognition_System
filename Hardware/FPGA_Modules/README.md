@@ -7,7 +7,7 @@ This folder contains the **hardware modules** implemented in VHDL for the projec
 Below is a detailed block diagram representing the hardware implementation developed in VHDL. It shows the connections between the different logic blocks, as well as the
 control signals and relevant data that enable the system to operate in real time.
 
-![System hardware architecture](assets/hardware_architecture.png)
+![System hardware architecture](assets/hardware_architecture.jpg)
 
 ### FT245 TRANSCEIVER
 
