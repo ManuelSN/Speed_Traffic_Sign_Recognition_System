@@ -44,5 +44,16 @@ information.
 This component has been developed to emulate the operation of the MT9V111 image sensor, allowing verification of the correct operation of the interface (MT9V111_IF), 
 as well as the entire process of sending data to the PC without the need for real hardware, all through simulations.
 
+---
 #### FREE-RUNNING COUNTER  
 This block is a simple counter with automatic reloading. It is a block designed for sending tests from the FPGA to the PC.
+
+---
+
+## 💾 Bitstreams
+
+The folder [`bitstreams/`](bitstreams/) contains the FPGA configuration files (`.bit`, `.bin` ) generated after synthesis and implementation.  
+These files can be directly programmed into the FPGA to test the different modules or the complete system.  
+
+> ⚠️ Note: The bitstreams are provided for reference and testing purposes.  
+> If you modify the VHDL sources, you will need to regenerate them using **Xilinx Vivado**.
