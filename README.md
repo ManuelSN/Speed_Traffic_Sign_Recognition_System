@@ -1,4 +1,9 @@
-# <img src="assets/app_icon.png" alt="App Icon" width="80"/> Speed Traffic Sign Recognition System
+<table>
+  <tr>
+    <td><img src="assets/logo_traffic_sign.ico" alt="App Icon" width="60"/></td>
+    <td><h1>Speed Traffic Sign Recognition System</h1></td>
+  </tr>
+</table>
 
 The main objective of the developed system is the **automatic detection and recognition of traffic signs related to speed limits**.  
 
@@ -10,7 +15,7 @@ The system consists of two main modules:
 - **Hardware module**: acquires images using a digital sensor and transmits them to the software module.  
 - **Software module**: receives the images, processes them using a neural model, and presents the results through a graphical user interface (GUI).  
 
-![System Architecture](System_Architecture.jpg)
+![System Architecture](assets/System_Architecture.jpg)
 
 The user can control the system directly from the application:
 - Establish connection with the hardware.  
