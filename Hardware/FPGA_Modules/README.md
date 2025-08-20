@@ -55,5 +55,16 @@ This block is a simple counter with automatic reloading. It is a block designed 
 The folder [`bitstreams/`](bitstreams/) contains the FPGA configuration files (`.bit`, `.bin` ) generated after synthesis and implementation.  
 These files can be directly programmed into the FPGA to test the different modules or the complete system.  
 
+Two parameters define each bitstream:  
+- **Clock frequency** of the image sensor interface: `12 MHz` or `25 MHz`  
+- **Image format**: `COLOR` or `GRAY` (grayscale)
+
+Available bitstreams:
+
+ `TOP_12MHz_COLOR.bit` →  Sensor interface at 12 MHz, color output  
+ `TOP_12MHz_COLOR.bin` →  Same configuration in `.bin` format   
+ `TOP_25MHz_GRAY.bit`  →  Sensor interface at 25 MHz, grayscale output   
+ `TOP_25MHz_GRAY.bin`  →  Same configuration in `.bin` format   
+
 > ⚠️ Note: The bitstreams are provided for reference and testing purposes.  
 > If you modify the VHDL sources, you will need to regenerate them using **Xilinx Vivado**.
