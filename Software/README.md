@@ -13,8 +13,8 @@ conda activate SpeedTrafficSignRecognitionApp_env
 This repository contains the source code and environment configuration for the project.
 
 Two different **graphical interfaces (GUIs)** have been developed:  
-- 🛠️ **Debug Mode** → intended for FPGA debugging and testing ([releases](https://github.com/ManuelSN/Speed_Traffic_Sign_Recognition_System/releases)).  
-- 🚀 **Release Mode** → intended for end users, providing a simplified and user-friendly interface ([releases](https://github.com/ManuelSN/Speed_Traffic_Sign_Recognition_System/releases)).  
+- 🛠️ **Debug Mode** → intended for FPGA debugging and testing ([GUI_debug](https://github.com/ManuelSN/Speed_Traffic_Sign_Recognition_System/blob/main/Software/SpeedTrafficSignRecognitionApp/GUI/SpeedTrafficSignRecognitionApp_debug.ui)).  
+- 🚀 **Release Mode** → intended for end users, providing a simplified and user-friendly interface ([GUI_release](https://github.com/ManuelSN/Speed_Traffic_Sign_Recognition_System/blob/main/Software/SpeedTrafficSignRecognitionApp/GUI/SpeedTrafficSignRecognitionApp_release.ui)).  
 
 ## 🚀 For end users
 
