@@ -81,8 +81,8 @@ A complete and detailed memory of the project (objectives, design decisions, tes
   conda env create -f Software/conda_environment.yml
   conda activate SpeedTrafficSignRecognitionApp_env
   ```
-Then run or modify any script from `Software/`.  
-You can also retrain or fine-tune the YOLO model in the `Neural_Network/` folder if needed.  
+Then run or modify any script from [`Software/`](https://github.com/ManuelSN/Speed_Traffic_Sign_Recognition_System/tree/main/Software).  
+You can also retrain or fine-tune the YOLO model in the [`Neural_Network/`](https://github.com/ManuelSN/Speed_Traffic_Sign_Recognition_System/tree/main/Software/Neural_Network) folder if needed.  
 
 ---
 
