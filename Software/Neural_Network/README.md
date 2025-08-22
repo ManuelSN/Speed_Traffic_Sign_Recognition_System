@@ -119,7 +119,7 @@ Contents:
 
 ## ⚙️ Workflow
 
-📌 **Note:** All required dependencies (`ultralytics`, `torch`, `opencv-python`, `numpy`, `pandas`) are already included in the main project `requirements.txt`. You can install them manually if needed:  
+📌 **Note:** All required dependencies (`ultralytics`, `torch`, `opencv-python`, `numpy`, `pandas`) are already included in the main project `requirements.txt` (as mentioned [here](https://github.com/ManuelSN/Speed_Traffic_Sign_Recognition_System/tree/main/Software#readme), when creating the environment). You can install them manually if needed:  
 ```
 pip install ultralytics opencv-python numpy pandas
 ```
