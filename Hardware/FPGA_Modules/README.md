@@ -1,6 +1,38 @@
-# FPGA Modules
+# 🧩 FPGA Modules
 
 This folder contains the **hardware modules** implemented in VHDL for the project. They are designed to be reusable and modular, forming the core FPGA architecture. 
+
+**📂 Folder structure**
+```
+FPGA_Modules/
+├── CLOCKGEN/                            # CLOCK GENERATOR module files
+│ └── simulation/                        # Simulation file (.tcl)
+│
+├── DISP7SEG/                            # DISPLAY 7 SEGMENTS module files
+│ └── simulation/                        # Simulation file (.tcl)
+|
+├── FT245_TRANSCEIVER/                   # FT245 TRANSCEIVER module files
+│ ├── IFREAD/                            # IFREAD submodule files
+|   └── sim/                             # Simulation file (.tcl)
+| └── IFWRITE/                           # IFWRITE module files
+│   └── sim/                             # Simulation file (.tcl)
+|
+├── IMAGE_PIPELINE/                      # IMAGE PIPELINE module files
+│ ├── FIFO/                              # FIFO submodule files
+|   └── sim/                             # Simulation file (.tcl)
+| ├── MT9V111_IF/                        # MT9V111 module files
+│   └── sim/                             # Simulation file (.tcl)
+| └── SENSOR_EMULATOR/                   # SENSOR_EMULATOR module files
+│   └── sim/                             # Simulation file (.tcl)
+|
+├── TOP/                                 # TOP files
+│ ├── FREE_RUNNING_COUNTER/              # FREE RUNNING COUNTER submodule files
+| └── sim/                               # Simulation files (.tcl)
+|
+├── assets/                              # images, docs, etc
+|
+└── bitstreams/                          # Bitstreams files (.bin, .bit)
+```
 
 ## Architecture overview
 
