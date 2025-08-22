@@ -10,7 +10,7 @@ conda activate SpeedTrafficSignRecognitionApp_env
 
 ## SpeedTrafficSignRecognitionApp
 
-This repository contains the source code and environment configuration for the project.
+[This folder](https://github.com/ManuelSN/Speed_Traffic_Sign_Recognition_System/tree/main/Software/SpeedTrafficSignRecognitionApp) contains the source code and environment configuration for the project.
 
 Two different **graphical interfaces (GUIs)** have been developed:  
 - 🛠️ **Debug Mode** → intended for FPGA debugging and testing ([GUI_debug](https://github.com/ManuelSN/Speed_Traffic_Sign_Recognition_System/blob/main/Software/SpeedTrafficSignRecognitionApp/GUI/SpeedTrafficSignRecognitionApp_debug.ui)).  
@@ -46,7 +46,7 @@ To allow the application to communicate with the FTDI device, you must copy the 
 ---
 ## Neural_Network
 
-This folder contains the **machine learning pipeline** used to train, fine-tune, and evaluate the deep learning model for **speed traffic sign recognition**.  
+[This folder](https://github.com/ManuelSN/Speed_Traffic_Sign_Recognition_System/tree/main/Software/Neural_Network) contains the **machine learning pipeline** used to train, fine-tune, and evaluate the deep learning model for **speed traffic sign recognition**.  
 It complements the main application by providing the trained detection model (`.pt`), which is later integrated into the GUI software.
 
 Key features:
