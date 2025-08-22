@@ -109,7 +109,7 @@ By using two of the provided bitstreams, the following frame rates were achieved
   
   <img src="assets/SW_Test_Color_12FPS.PNG" alt="Color Mode" width="800"/>
   
-- **TOP_25MHz_GRAY** → up to **27 FPS** in color mode.
+- **TOP_25MHz_GRAY** → up to **27 FPS** in grayscale mode.
   
   <img src="assets/SW_Test_Gray_27FPS.PNG" alt="Gray Mode" width="800"/>
 
