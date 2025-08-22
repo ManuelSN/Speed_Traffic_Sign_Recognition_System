@@ -106,10 +106,10 @@ Available bitstreams:
 By using two of the provided bitstreams, the following frame rates were achieved when transmitting images from the FPGA to the application:
 
 - **TOP_12MHz_COLOR** → up to **12–13 FPS** in color mode.
-  ![System hardware architecture](assets/hardware_architecture.jpg)
+  ![Color](assets/SW_Test_Color_12FPS.PNG)
   
-- **TOP_25MHz_COLOR** → up to **27 FPS** in color mode.
-  ![System hardware architecture](assets/hardware_architecture.jpg)
+- **TOP_25MHz_GRAY** → up to **27 FPS** in color mode.
+  ![Gray](assets/SW_Test_Gray_27FPS.PNG)
 
 > The images are screenshots from the `SpeedTrafficSignRecognitionApp`, showing the received frames in real time.
 > ⚠️ *Final decision:** The FPGA configuration is used in **color mode (TOP_12MHz_COLOR)**, since the neural network was trained with **color images** and cannot properly interpret grayscale inputs. 
