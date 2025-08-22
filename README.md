@@ -5,9 +5,10 @@
   </tr>
 </table>
 
-The main objective of the developed system is the **automatic detection and recognition of traffic signs related to speed limits**.  
+This project is focused on the **automatic detection and recognition of traffic signs related to speed limits**.  
+It combines an FPGA-based hardware module for real-time image acquisition with a Python software application powered by a trained neural network for traffic sign recognition.  
 
-This requires **real-time image processing**, suitable for integration into vehicular environments or driving simulators, where it is necessary to visually monitor the environment in a continuous and efficient manner.  
+The goal is to provide a modular and portable system that can be used for **vehicular environments, driving simulators, or academic research**, serving as a foundation for future integration into **Advanced Driver-Assistance Systems (ADAS)**. 
 
 <img src="assets/SW_Test_Sign_Recognized.PNG" alt="Color Mode" width="700"/>
 
