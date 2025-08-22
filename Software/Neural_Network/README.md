@@ -119,13 +119,13 @@ Contents:
 
 ## ⚙️ Workflow
 
-📌 Note: All required dependencies (`ultralytics`, `torch`, `opencv-python`, `numpy`, `pandas`) are already included in the main project `requirements.txt`. You can install them manually if needed:  
+📌 **Note:** All required dependencies (`ultralytics`, `torch`, `opencv-python`, `numpy`, `pandas`) are already included in the main project `requirements.txt`. You can install them manually if needed:  
 ```
 pip install ultralytics opencv-python numpy pandas
 ```
 The workflow is as follows:
 
-1. **Convert dataset to YOLO format**  
+1. **Convert original downloaded and filtered dataset to YOLO format**  
    ```
    python scripts/convertDatasetIntoYOLOformat.py
    ```
