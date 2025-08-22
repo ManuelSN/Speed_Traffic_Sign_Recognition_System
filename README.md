@@ -1,6 +1,6 @@
 <table>
   <tr>
-    <td><img src="assets/logo_traffic_sign.ico" alt="App Icon" width="60"/></td>
+    <td><img src="assets/logo_traffic_sign.ico" alt="App Icon" width="100"/></td>
     <td><h1>Speed Traffic Sign Recognition System</h1></td>
   </tr>
 </table>
@@ -46,8 +46,7 @@ The graphical interface allows the user to:
 - Enable or disable traffic sign detection.  
 - Display recognition results: detected class (speed limit) + confidence level.  
 
-📂 **Structure of the Software folder**:
-
+📌 For more information [README](https://github.com/ManuelSN/Speed_Traffic_Sign_Recognition_System/blob/main/Software/README.md). 
 
 ---
 
@@ -56,7 +55,7 @@ The graphical interface allows the user to:
 The hardware is implemented on the **Artix-7 FPGA** (BASYS 3 board).  
 Its main function is to **acquire images from the MT9V111 sensor** and transmit them to the PC through the **FT232H USB controller**.  
 
-📂 **Structure of the Hardware folder**:
+📌 For more information [README](https://github.com/ManuelSN/Speed_Traffic_Sign_Recognition_System/blob/main/Hardware/FPGA_Modules/README.md).  
 
 ---
 
@@ -71,7 +70,7 @@ A complete and detailed memory of the project (objectives, design decisions, tes
 
 ### 🖥️ Software
 
-- **End users** → download and run the installer from [releases](https://github.com/USER/REPO/releases).  
+- **End users** → download and run the installer from [releases](https://github.com/ManuelSN/Speed_Traffic_Sign_Recognition_System/releases).  
   The application will install automatically — no Python or Conda required.  
 
 - **Developers** → create the conda environment for software development with:  
@@ -93,5 +92,3 @@ You can also retrain or fine-tune the YOLO model in the `Neural_Network/` folder
   - Edit the VHDL sources inside `Hardware/FPGA_Modules/`.  
   - Synthesize and implement the updated design using **Xilinx Vivado**.  
   - Generate the new bitstreams (`.bit` / `.bin`) and program them into the FPGA.  
-
-📌 For more detailed instructions, check the **README** files inside the [`Software/`](https://github.com/ManuelSN/Speed_Traffic_Sign_Recognition_System/tree/main/Software) and [`Hardware/`](https://github.com/ManuelSN/Speed_Traffic_Sign_Recognition_System/tree/main/Hardware/FPGA_Modules) folders.
