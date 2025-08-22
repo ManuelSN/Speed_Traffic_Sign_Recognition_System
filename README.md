@@ -81,7 +81,7 @@ A complete and detailed memory of the project (objectives, design decisions, tes
   conda env create -f Software/conda_environment.yml
   conda activate SpeedTrafficSignRecognitionApp_env
   ```
-  or **if you already have Python 3.11 installed**, you can simply install the dependencies from **requirements.txt** file:
+  or **if you already have Python 3.11 installed**, you can simply install the dependencies from **`requirements.txt`** file:
   ```
   pip install -r Software/requirements.txt
   ```
