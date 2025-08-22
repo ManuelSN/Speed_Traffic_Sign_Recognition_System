@@ -20,7 +20,7 @@ Two different **graphical interfaces (GUIs)** have been developed:
 
 The GUI in **Release Mode** it looks like this:
 
-<img src="assets/DEBUG_TEST_PROCESS.PNG" alt="Debug Mode" width="800"/>
+<img src="assets/SW_Test_Sign_Recognized.PNG" alt="Debug Mode" width="800"/>
 
 If you only want to **use the application**, you don’t need to install Python, Conda, or any dependencies.  
 Just download the installer **`STSRAppInstaller.exe`** from the [releases](https://github.com/ManuelSN/Speed_Traffic_Sign_Recognition_System/releases) section.  
@@ -32,7 +32,7 @@ The installer will set up everything automatically — you just need to follow t
 
 The GUI in **Debug Mode** it looks like this:
 
-<img src="assets/SW_Test_Sign_Recognized.PNG" alt="Debug Mode" width="800"/>
+<img src="assets/DEBUG_TEST_PROCESS.PNG" alt="Debug Mode" width="800"/>
 
 If you want to work with the source code, modify or extend the project, you will need:
 
