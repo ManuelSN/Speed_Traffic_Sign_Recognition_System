@@ -13,21 +13,21 @@ FPGA_Modules/
 |
 ├── FT245_TRANSCEIVER/                   # FT245 TRANSCEIVER module files
 │ ├── IFREAD/                            # IFREAD submodule files
-|   └── sim/                             # Simulation file (.tcl)
+|   └── simulation/                      # Simulation file (.tcl)
 | └── IFWRITE/                           # IFWRITE module files
-│   └── sim/                             # Simulation file (.tcl)
+│   └── simulation/                      # Simulation file (.tcl)
 |
 ├── IMAGE_PIPELINE/                      # IMAGE PIPELINE module files
 │ ├── FIFO/                              # FIFO submodule files
-|   └── sim/                             # Simulation file (.tcl)
+|   └── simulation/                      # Simulation file (.tcl)
 | ├── MT9V111_IF/                        # MT9V111 module files
-│   └── sim/                             # Simulation file (.tcl)
+│   └── simulation/                      # Simulation file (.tcl)
 | └── SENSOR_EMULATOR/                   # SENSOR_EMULATOR module files
-│   └── sim/                             # Simulation file (.tcl)
+│   └── simulation/                      # Simulation file (.tcl)
 |
 ├── TOP/                                 # TOP files
 │ ├── FREE_RUNNING_COUNTER/              # FREE RUNNING COUNTER submodule files
-| └── sim/                               # Simulation files (.tcl)
+| └── simulation/                        # Simulation files (.tcl)
 |
 ├── assets/                              # images, docs, etc
 |
