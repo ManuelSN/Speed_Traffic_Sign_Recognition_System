@@ -7,7 +7,10 @@ This environment ensures you have everything needed to **compile and run all the
 conda env create -f conda_environment.yml
 conda activate SpeedTrafficSignRecognitionApp_env
 ```
-
+or **if you already have Python 3.11 installed**, you can simply install the dependencies from **`requirements.txt`** file:
+```
+pip install -r Software/requirements.txt
+```
 ## SpeedTrafficSignRecognitionApp
 
 [This folder](https://github.com/ManuelSN/Speed_Traffic_Sign_Recognition_System/tree/main/Software/SpeedTrafficSignRecognitionApp) contains the source code and environment configuration for the project.
