@@ -100,3 +100,17 @@ Available bitstreams:
 
 > ⚠️ Note: The bitstreams are provided for reference and testing purposes.  
 > If you modify the VHDL sources, you will need to regenerate them using **Xilinx Vivado**.
+
+## 📊 Performance Results
+
+By using two of the provided bitstreams, the following frame rates were achieved when transmitting images from the FPGA to the application:
+
+- **TOP_12MHz_COLOR** → up to **12–13 FPS** in color mode.
+  ![System hardware architecture](assets/hardware_architecture.jpg)
+  
+- **TOP_25MHz_COLOR** → up to **27 FPS** in color mode.
+  ![System hardware architecture](assets/hardware_architecture.jpg)
+
+> The images are screenshots from the `SpeedTrafficSignRecognitionApp`, showing the received frames in real time.
+> ⚠️ *Final decision:** The FPGA configuration is used in **color mode (TOP_12MHz_COLOR)**, since the neural network was trained with **color images** and cannot properly interpret grayscale inputs. 
+
