@@ -1,7 +1,7 @@
-# Software
+# 💻 Software
 
 The following command will **create a conda environment** with **all the required dependencies** specified in **`requirements.txt`**.  
-This environment ensures you have everything needed to **compile and run the code** consistently.
+This environment ensures you have everything needed to **compile and run all the scripts & code** consistently.
 
 ```
 conda env create -f conda_environment.yml
@@ -12,7 +12,15 @@ conda activate SpeedTrafficSignRecognitionApp_env
 
 This repository contains the source code and environment configuration for the project.
 
+Two different **graphical interfaces (GUIs)** have been developed:  
+- 🛠️ **Debug Mode** → intended for FPGA debugging and testing ([releases](https://github.com/ManuelSN/Speed_Traffic_Sign_Recognition_System/releases)).  
+- 🚀 **Release Mode** → intended for end users, providing a simplified and user-friendly interface ([releases](https://github.com/ManuelSN/Speed_Traffic_Sign_Recognition_System/releases)).  
+
 ## 🚀 For end users
+
+The GUI in **Release Mode** it looks like this:
+
+[Release Mode](assets/DEBUG_TEST_PROCESS.png)
 
 If you only want to **use the application**, you don’t need to install Python, Conda, or any dependencies.  
 Just download the installer **`STSRAppInstaller.exe`** from the [releases](https://github.com/ManuelSN/Speed_Traffic_Sign_Recognition_System/releases) section.  
@@ -21,6 +29,10 @@ The installer will set up everything automatically — you just need to follow t
 
 
 ## 🛠️ For developers
+
+The GUI in **Debug Mode** it looks like this:
+
+[Debug Mode](assets/SW_Test_Sign_Recognized.png)
 
 If you want to work with the source code, modify or extend the project, you will need:
 
