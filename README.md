@@ -9,7 +9,7 @@ The main objective of the developed system is the **automatic detection and reco
 
 This requires **real-time image processing**, suitable for integration into vehicular environments or driving simulators, where it is necessary to visually monitor the environment in a continuous and efficient manner.  
 
-<img src="assets/SW_Test_Sign_Recognized.PNG" alt="Color Mode" width="800"/>
+<img src="assets/SW_Test_Sign_Recognized.PNG" alt="Color Mode" width="700"/>
 
 ## Overview
 
