@@ -112,10 +112,9 @@ begin
             end if;
           when READ_DATA =>
             rdreq_next <= '0';
-            if wait_cycles_count = 1 then
+            if wait_cycles_count = NRCYCLES then 
                 input_next <= DIN; 
-                rdreq_next <= '1';
-            elsif wait_cycles_count = NRCYCLES then               
+                rdreq_next <= '1';              
                 rdn_next <= '1';
                 if RD_EN = '1' then
                     state_next <= WAIT_FOR_RXFn;
