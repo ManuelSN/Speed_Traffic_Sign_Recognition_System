@@ -30,10 +30,10 @@ Thanks to its **modular architecture** and portability, this system is suitable 
 ## 🔧 System Architecture
 
 The system is composed of the following elements:
-- 💻 A computer running Windows.  
-- 🖥️ Desktop application **SpeedTrafficSignRecognitionApp**.  
-- 🔌 **UM232H-B** FTDI module for USB communication.  
-- 🎛️ **BASYS 3 development board** with Xilinx Artix-7 FPGA for image acquisition.  
+- A computer running Windows.  
+- Desktop application **SpeedTrafficSignRecognitionApp**.  
+- **UM232H-B** FTDI module for USB communication.  
+- **BASYS 3 development board** with Xilinx Artix-7 FPGA for image acquisition.  
 
 ---
 
