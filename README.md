@@ -64,8 +64,9 @@ Its main function is to **acquire images from the MT9V111 sensor** and transmit 
 
 ## 📑 Documentation
 
-A complete and detailed memory of the project (objectives, design decisions, tests, results) is available on my **LinkedIn profile**:  
-👉 [Full Project Report on LinkedIn](www.linkedin.com/in/manuel-sanchez-natera-b0171519b)  
+Project dissertations in both languages, English and Spanish, are available in the [docs](./docs) folder.
+
+👉 For more information about me or contact, please visit [my LinkedIn profile.](https://www.linkedin.com/in/manuel-sanchez-natera-b0171519b)  
 
 ---
 
